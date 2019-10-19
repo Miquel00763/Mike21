@@ -1,7 +1,7 @@
 #coding: utf-8
 import smtplib
 import sys
-
+import passwfile.txt
 ###  MEMBERI WARNA  ###
 merah	= "\033[91m"
 kuning	= "\033[93m"
